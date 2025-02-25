@@ -37,7 +37,7 @@ export default function TeamPage() {
               <div className="p-6 border border-gray-200 dark:border-gray-700 rounded-lg text-center">
                 <div className="w-24 h-24 mx-auto mb-4 relative">
                   <Image
-                    src="/avatars/team-lead.jpg"
+                    src="/person.jpg"
                     alt="Team Lead"
                     fill
                     className="rounded-full object-cover"
@@ -49,11 +49,11 @@ export default function TeamPage() {
                   <a href="mailto:sarah.j@company.com" className="block text-sm text-gray-600 hover:text-blue-600 dark:text-gray-400">sarah.j@company.com</a>
                   <div className="flex justify-center space-x-2">
                     <button className="flex items-center px-3 py-1 bg-blue-100 hover:bg-blue-200 dark:bg-blue-900 dark:hover:bg-blue-800 rounded-lg">
-                      <Image src="/teams-icon.png" alt="Teams" width={16} height={16} className="mr-1" />
+                      <Image src="/teamsLogo.jpg" alt="Teams" width={16} height={16} className="mr-1" />
                       Teams
                     </button>
                     <button className="flex items-center px-3 py-1 bg-green-100 hover:bg-green-200 dark:bg-green-900 dark:hover:bg-green-800 rounded-lg">
-                      <Image src="/meet-icon.png" alt="Meet" width={16} height={16} className="mr-1" />
+                      <Image src="/gmeetLogo.png" alt="Meet" width={16} height={16} className="mr-1" />
                       Meet
                     </button>
                   </div>
@@ -66,7 +66,7 @@ export default function TeamPage() {
               <div className="p-6 border border-gray-200 dark:border-gray-700 rounded-lg text-center">
                 <div className="w-24 h-24 mx-auto mb-4 relative">
                   <Image
-                    src="/avatars/tech-lead.jpg"
+                    src="/person.jpg"
                     alt="Tech Lead"
                     fill
                     className="rounded-full object-cover"
@@ -78,11 +78,11 @@ export default function TeamPage() {
                   <a href="mailto:mike.c@company.com" className="block text-sm text-gray-600 hover:text-blue-600 dark:text-gray-400">mike.c@company.com</a>
                   <div className="flex justify-center space-x-2">
                     <button className="flex items-center px-3 py-1 bg-blue-100 hover:bg-blue-200 dark:bg-blue-900 dark:hover:bg-blue-800 rounded-lg">
-                      <Image src="/teams-icon.png" alt="Teams" width={16} height={16} className="mr-1" />
+                      <Image src="/teamsLogo.jpg" alt="Teams" width={16} height={16} className="mr-1" />
                       Teams
                     </button>
                     <button className="flex items-center px-3 py-1 bg-green-100 hover:bg-green-200 dark:bg-green-900 dark:hover:bg-green-800 rounded-lg">
-                      <Image src="/meet-icon.png" alt="Meet" width={16} height={16} className="mr-1" />
+                      <Image src="/gmeetLogo.png" alt="Meet" width={16} height={16} className="mr-1" />
                       Meet
                     </button>
                   </div>
@@ -95,7 +95,7 @@ export default function TeamPage() {
               <div className="p-6 border border-gray-200 dark:border-gray-700 rounded-lg text-center">
                 <div className="w-24 h-24 mx-auto mb-4 relative">
                   <Image
-                    src="/avatars/pm.jpg"
+                    src="/person.jpg"
                     alt="Project Manager"
                     fill
                     className="rounded-full object-cover"
@@ -107,11 +107,11 @@ export default function TeamPage() {
                   <a href="mailto:emily.b@company.com" className="block text-sm text-gray-600 hover:text-blue-600 dark:text-gray-400">emily.b@company.com</a>
                   <div className="flex justify-center space-x-2">
                     <button className="flex items-center px-3 py-1 bg-blue-100 hover:bg-blue-200 dark:bg-blue-900 dark:hover:bg-blue-800 rounded-lg">
-                      <Image src="/teams-icon.png" alt="Teams" width={16} height={16} className="mr-1" />
+                      <Image src="/teamsLogo.jpg" alt="Teams" width={16} height={16} className="mr-1" />
                       Teams
                     </button>
                     <button className="flex items-center px-3 py-1 bg-green-100 hover:bg-green-200 dark:bg-green-900 dark:hover:bg-green-800 rounded-lg">
-                      <Image src="/meet-icon.png" alt="Meet" width={16} height={16} className="mr-1" />
+                      <Image src="/gmeetLogo.png" alt="Meet" width={16} height={16} className="mr-1" />
                       Meet
                     </button>
                   </div>
@@ -143,11 +143,11 @@ export default function TeamPage() {
                     </a>
                     <div className="flex justify-center space-x-2">
                       <button className="flex items-center px-3 py-1 bg-blue-100 hover:bg-blue-200 dark:bg-blue-900 dark:hover:bg-blue-800 rounded-lg text-sm">
-                        <Image src="/teams-icon.png" alt="Teams" width={16} height={16} className="mr-1" />
+                        <Image src="/teamsLogo.jpg" alt="Teams" width={16} height={16} className="mr-1" />
                         Teams
                       </button>
                       <button className="flex items-center px-3 py-1 bg-green-100 hover:bg-green-200 dark:bg-green-900 dark:hover:bg-green-800 rounded-lg text-sm">
-                        <Image src="/meet-icon.png" alt="Meet" width={16} height={16} className="mr-1" />
+                        <Image src="/gmeetLogo.png" alt="Meet" width={16} height={16} className="mr-1" />
                         Meet
                       </button>
                     </div>

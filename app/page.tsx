@@ -1,13 +1,10 @@
+"use client";
+
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-100 via-purple-50 to-pink-100 dark:from-gray-900 dark:via-purple-900 dark:to-blue-900 p-8">
-      {/* Chatbot Button */}
-      <button className="fixed bottom-8 right-8 bg-blue-600 hover:bg-blue-700 text-white p-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 z-50 flex items-center justify-center">
-        <span className="text-2xl">💬</span>
-      </button>
-
+    <div className="min-h-screen bg-gradient-to-br from-blue-100 via-purple-50 to-pink-100 dark:from-gray-900 dark:via-purple-900 dark:to-blue-900 p-8 relative">
       <main className="max-w-4xl mx-auto flex flex-col items-center justify-center min-h-screen text-center">
         <div className="mb-12 hover:scale-105 transition-transform">
           <Image
@@ -25,7 +22,7 @@ export default function Home() {
         </h1>
 
         <p className="text-xl text-gray-700 dark:text-gray-200 mb-16 max-w-2xl leading-relaxed">
-          We&apos;re thrilled to have you join our amazing team! Let&apos;s embark on this exciting journey together. 🚀
+          We're thrilled to have you join our amazing team! Let's embark on this exciting journey together. 🚀
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-3xl">
@@ -58,10 +55,15 @@ export default function Home() {
               <span className="text-3xl group-hover:rotate-12 transition-transform">💡</span>
               Need Help?
             </h2>
-            <p className="text-gray-600 dark:text-gray-400">We&apos;re here to support you every step of the way</p>
+            <p className="text-gray-600 dark:text-gray-400">We're here to support you every step of the way</p>
           </a>
         </div>
       </main>
+
+      <a href="/help" className="absolute bottom-4 right-4 flex items-center gap-2 px-4 py-2 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-lg shadow-lg hover:shadow-xl transition-all">
+        <span className="text-xl">❓</span>
+        <span className="text-gray-700 dark:text-gray-200">Help</span>
+      </a>
     </div>
   );
 }
