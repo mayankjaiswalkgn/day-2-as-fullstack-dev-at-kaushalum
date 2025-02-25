@@ -22,7 +22,7 @@ export default function Home() {
         </h1>
 
         <p className="text-xl text-gray-700 dark:text-gray-200 mb-16 max-w-2xl leading-relaxed">
-          We're thrilled to have you join our amazing team! Let's embark on this exciting journey together. 🚀
+          We&apos;re thrilled to have you join our amazing team! Let&apos;s embark on this exciting journey together. 🚀
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-3xl">
@@ -55,7 +55,7 @@ export default function Home() {
               <span className="text-3xl group-hover:rotate-12 transition-transform">💡</span>
               Need Help?
             </h2>
-            <p className="text-gray-600 dark:text-gray-400">We're here to support you every step of the way</p>
+            <p className="text-gray-600 dark:text-gray-400">We&apos;re here to support you every step of the way</p>
           </a>
         </div>
       </main>
